@@ -5,17 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/titulo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".MainActivity2">
 
     <LinearLayout
         android:id="@+id/LlNombre"
@@ -38,18 +28,17 @@
             android:textSize="20sp"
             app:layout_constraintTop_toTopOf="@id/TextView" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/TxINombre"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/TxVvNombre"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:hint="Introduzca su nombre"
-            android:padding="15dp"
-            android:paddingHorizontal="10dp"
+            android:layout_marginTop="50dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:text=""
             app:layout_constraintEnd_toEndOf="@id/TextView"
             app:layout_constraintStart_toStartOf="@id/TextView"
             app:layout_constraintTop_toTopOf="@id/TextView"
-
             />
     </LinearLayout>
 
@@ -74,29 +63,19 @@
             android:textSize="20sp"
             app:layout_constraintTop_toTopOf="@id/TextView" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/TxIApellidos"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/TxVvApellidos"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:hint="Introduzca su apellido"
-            android:padding="15dp"
-            android:paddingHorizontal="10dp"
+            android:layout_marginTop="50dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:text=""
             app:layout_constraintEnd_toEndOf="@id/TextView"
             app:layout_constraintStart_toStartOf="@id/TextView"
-            app:layout_constraintTop_toTopOf="@id/TextView" />
+            app:layout_constraintTop_toTopOf="@id/TextView"
+            />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Enviar"
-        app:layout_constraintTop_toBottomOf="@id/LlApellidos"
-        app:layout_constraintEnd_toEndOf="@id/TextView"
-        app:layout_constraintStart_toStartOf="@id/TextView"
-        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
