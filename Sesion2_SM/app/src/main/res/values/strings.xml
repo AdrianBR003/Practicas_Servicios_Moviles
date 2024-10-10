@@ -5,4 +5,7 @@
     <string name="btn_Table">Vista Table Layout</string>
 
     <string name="encabezadoCL">Constraint Layout</string>
+    <string name="title_activity_linear">LinearActivity</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_table">TableActivity</string>
 </resources>
