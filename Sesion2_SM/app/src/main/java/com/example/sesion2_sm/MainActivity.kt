@@ -60,8 +60,4 @@ class MainActivity : ComponentActivity() {
             true
         }
     }
-
-
-
-
 }

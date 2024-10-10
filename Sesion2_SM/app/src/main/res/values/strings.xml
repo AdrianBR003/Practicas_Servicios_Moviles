@@ -1,11 +1,16 @@
 <resources>
     <string name="app_name">Sesion2_SM</string>
+    <string name="btn_Constraint">Vista Constraint Layout</string>
     <string name="btn_Linear">Vista Linear Layout</string>
     <string name="btn_Relative">Vista Relative Layout</string>
     <string name="btn_Table">Vista Table Layout</string>
 
     <string name="encabezadoCL">Constraint Layout</string>
-    <string name="title_activity_linear">LinearActivity</string>
-    <string name="title_activity_relative">RelativeActivity</string>
-    <string name="title_activity_table">TableActivity</string>
+    <string name="encabezadoLl">Linear Layout</string>
+    <string name="encabezadoRl">Relative Layout</string>
+    <string name="encabezadoTl">Table Layout</string>
+    <string name="title_activity_constraint">Constraint Activity</string>
+    <string name="title_activity_linear">Linear Activity</string>
+    <string name="title_activity_relative">Relative Activity</string>
+    <string name="title_activity_table">Table Activity</string>
 </resources>

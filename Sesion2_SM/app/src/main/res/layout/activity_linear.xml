@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:textSize="20sp"
-        android:text="@string/encabezadoCL"
+        android:text="@string/encabezadoLl"
         android:textColor="@color/black"
         android:background="@color/purple_200"
         android:gravity="center"
@@ -27,11 +27,11 @@
         >
 
     <Button
-        android:id="@+id/Linear"
-        android:layout_width="80dp"
+        android:id="@+id/constraint"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/btn_Linear" />
+        android:text="@string/btn_Constraint" />
 
     <Button
         android:id="@+id/Relative"
