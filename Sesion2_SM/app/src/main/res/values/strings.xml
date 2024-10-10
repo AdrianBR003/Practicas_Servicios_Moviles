@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sesion2_SM</string>
+    <string name="btn_Linear">Vista Linear Layout</string>
+    <string name="btn_Relative">Vista Relative Layout</string>
+    <string name="btn_Table">Vista Table Layout</string>
+
+    <string name="encabezadoCL">Constraint Layout</string>
+</resources>
